@@ -1,0 +1,288 @@
+ul{
+    list-style: none;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+div{
+    font-weight: normal;
+}
+
+/*    HEADER   */
+
+.container{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+   max-width: 1600px;    
+   font-size: 20px;
+ 
+}
+
+.header_top_nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top_nav_left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.top_nav_field{
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.catalog{
+    color: #2D9CDB;
+    justify-content: space-between;
+}
+
+.left_nav_input{
+border: 2px solid #FE974D;
+border-radius: 99px;
+height: 30px;
+width: 300px;
+font-size: 15px;
+padding-left: 10px;
+}
+
+.left_nav_input:focus{
+    outline: none !important;
+}
+
+.left_nav_btn{
+    background-image: url("img/header/Vector.svg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 32px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.left_nav_btn{
+    background: #FE974D;
+    border: 2px solid #FE974D;
+    border-radius: 99px;
+}
+
+.right_nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.right_nav>li{
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_nav_order, .right_nav_enter, .right_nav_register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+}
+.right_nav_register{
+    color: blue;
+    text-decoration: underline;
+}
+
+.bot_nav
+{
+    padding: 0px;
+    padding: 0px 40px;
+    display: flex;    
+    justify-content: space-between;
+    height: 100px;
+    background: #2D9CDB; 
+    height: 57px;
+    border-radius: 25px;
+}
+
+.bot_nav>li{
+    align-self: center;
+    width: 20%;
+    padding: 0px;
+    width: fit-content;
+ 
+}
+.bot_nav>li:first-child{
+    padding: 0px 30px;
+    
+}
+.bot_nav>li>a{
+    color: white;    
+}
+.bot_nav>li:first-child>a{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/*    MAIN    */
+
+.bible{
+    width: 1196px;
+    height: 374px;
+    margin: auto;
+    background: #c0c0c0;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.main_special{
+    display: flex;
+    flex-direction: column;
+}
+
+.special{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.special_title{
+    display: flex;
+    margin-left: 9%;
+    color: #FE974D;
+    font-size: 25px;
+}
+
+
+.special>li>a{
+
+    display: flex;
+    align-items: flex-end;
+    width: 350px; 
+    border-radius: 25px;
+    position: relative;
+}
+
+.special_img{
+ width: 100%;
+ border-radius: 25px;
+overflow: hidden;
+}
+
+.special_bot{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+   
+}
+.special_place{
+    padding-left: 15px;
+}
+
+.special_count{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-right: 15px;
+}
+
+.show_all{
+    align-self: center;
+    width: 89%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color:  #2D9CDB;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+
+.main_health{
+    display: flex;
+    flex-direction: column;
+}
+
+.health{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.health_title{
+    display: flex;
+    margin-left: 9%;
+    color: #4F4F4F;
+    font-size: 25px;
+}
+
+
+.health>li>a{
+    display: flex;
+    align-items: flex-end;
+    width: 230px; 
+    border-radius: 25px;
+    position: relative;
+}
+
+.health_img{
+ width: 100%;
+ border-radius: 25px;
+overflow: hidden;
+}
+
+.health_bot{
+    position: absolute;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+
+   
+}
+.health_place{
+   color: white;
+    height: fit-content;
+    width: fit-content;
+   padding: 5px 10px;
+   background-color: rgba(0, 0, 0, 0.24);
+   border-radius: 25px;
+}
+
+.health_count{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2px 7px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: #F25022;
+}
+
