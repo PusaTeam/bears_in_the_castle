@@ -210,7 +210,7 @@ overflow: hidden;
 
 .show_all{
     align-self: center;
-    width: 89%;
+    width: 87%;
     display: flex;
     justify-content: center;
     border: 1px solid grey;
